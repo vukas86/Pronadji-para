@@ -83,7 +83,7 @@ h1 {
 }
 
 .card-front {
-  background-image: url("public/Assets/bg.png");
+  background-image: url("bg.png");
   background-size: cover;
   background-position: center;
   color: black;
