@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Add image to card-back
       const imgElement = document.createElement("img");
-      imgElement.src = `assets/${card.value}`;
+      imgElement.src = `public/Assets/${card.value}`;
       imgElement.alt = `Memory Card`;
       imgElement.style.width = `100%`;
       imgElement.style.height = `100%`;
