@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пронаћи Пара</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="start-screen" id="startScreen">
+      <h1>ПРОНАЋИ ПАРА</h1>
+      <div class="level-buttons">
+        <button data-level="easy">Лако</button>
+        <button data-level="medium">Тешко</button>
+        <button data-level="hard">Најтеже</button>
+      </div>
+    </div>
+    <div id="timer" class="timer-circle">00:00</div>
+    <button id="backButton" class="back-button">Назад</button>
+    <div class="game-board" id="gameBoard" style="display: none"></div>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <h2>Честитамо!</h2>
+        <p id="popup-message"></p>
+        <button id="closePopup">OK</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
